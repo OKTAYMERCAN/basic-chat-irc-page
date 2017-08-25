@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Basic Chat Room - Basit Sohbet Odası</title>
+
+<style>
+
+#pencere {
+width: 400px;
+min-height: 150px;
+border: 2px solid #ff0000;
+border-radius:5px;
+padding:10px;
+margin:auto;
+background-color: #F1F3F5;
+
+}
+
+#baslik {
+color:black;
+font-weight:high;
+margin-top:-10px;
+}
+
+#chat {
+margin:auto;
+width:390px;
+height:400px;
+overflow:auto;
+border: 1px solid #000000;
+padding:5px;
+font-size:16px;
+
+}
+
+</style>
+
+<head>
+
+
+<body style="background-color:black;">
+	<form action="backendside.php" method="get">
+		<div id="pencere">
+		
+			<h1 id="baslik">Sohbet / Chat<h1>
+			<input type="text" name="username" placeholder="Nickname / rumuz" size="52">
+			<iframe id="chat" src="MDB.html"></iframe>
+			<input type="text" name="mesaj" placeholder="Message / Mesaj" size="41"><button type="submit" name="gönder"><b>GÖNDER<b></button>
+			
+		</div>
+	</form>
+</body>
+
+</html>
