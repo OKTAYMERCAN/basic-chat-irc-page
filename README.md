@@ -1,4 +1,4 @@
-This basic HTML, CSS and PHP Chat page.
+This basic HTML, CSS and PHP Chat/IRC page.
 
 You can use it freely but you must explicitly reference the repo and my name.
 
